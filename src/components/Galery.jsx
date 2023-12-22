@@ -39,7 +39,7 @@ const Gallery = () => {
         </p>
     </div>
 
-    <div class="columns-2 md:columns-3 lg:columns-4 gap-3 space-y-3 pb-28 px-3">
+    <div class="columns-2 md:columns-3 lg:columns-4 gap-3 space-y-3 pb-28 px-3" data-aos="zoom-in">
       {images.map((image, index) => (
         <div
           key={index}
@@ -50,6 +50,7 @@ const Gallery = () => {
           <img
             src={image}
             alt={`Image ${index}`}
+            
             className={`w-full h-auto transition-all duration-300 rounded-md shadow-lg ${
                 hoveredImage === index ? 'transform translate-y-[-5px] translate-x-[-5px] scale-105' : ''
             }`}

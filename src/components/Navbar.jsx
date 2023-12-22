@@ -22,15 +22,16 @@ const Navbar = () => {
         <div className="container">
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-32">
-                    <p className={`font-semibold text-2xl ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Relifgion</p>            
+                    <p className={`font-semibold text-2xl ${scrolled ? 'text-slate-900' : 'text-white'}`}>Furniture</p>            
                                   
                 </div>
 
                 <ul className='md:flex hidden md:flex-row flex-col gap-7 mt-10 md:mt-0'>
                         <li><a href="/" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Home</a></li>
-                        <li><a href="/about" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>About</a></li>
-                        <li><a href="" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Vegetables</a></li>
-                        <li><a href="" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Contact</a></li>      
+                        <li><a href="#about" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>About</a></li>
+                        <li><a href="#galery" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Galery</a></li>
+                        <li><a href="#products" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Products</a></li>     
+                        <li><a href="#blog" className={`text-md ${scrolled ? 'text-slate-900' : 'text-slate-200'}`}>Blog</a></li>     
                  </ul>     
 
         
@@ -39,10 +40,10 @@ const Navbar = () => {
                    <p className='md:hidden font-semibold text-2xl'>Relifgion</p>            
                     <ul className='flex md:hidden md:flex-row flex-col gap-7 mt-10 md:mt-0'>
                         <li><a href="/" className={`text-slate-900 text-md`}>Home</a></li>
-                        <li><a href="" className={`text-slate-900 text-md`}>about</a></li>
-                        <li><a href="" className={`text-slate-900 text-md`}>Vegetables</a></li>
-                        <li><a href="" className={`text-slate-900 text-md`}>Contact</a></li>
-                        
+                        <li><a href="#about" className={`text-slate-900 text-md`}>About</a></li>
+                        <li><a href="#galery" className={`text-slate-900 text-md`}>Galery</a></li>
+                        <li><a href="#products" className={`text-slate-900 text-md`}>Products</a></li>
+                        <li><a href="#blog" className={`text-slate-900 text-md`}>Blog</a></li>
                     </ul>     
 
                     <div className="flex md:hidden text-slate-200 mt-9 items-center gap-6 pr-6 pt-3 lg:pr-10">

@@ -13,12 +13,12 @@ const Products = () => {
    <>
 
     <div className="container pt-6 pb-28">
-        <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-28">
+        <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-28" data-aos="fade-up">
             <div className="">
             <h1 className='text-4xl leading-[3rem] mb-7 text-slate-900'>Top Exporter of Natural Rattan Products</h1>
             <p className='text-slate-700 text-[.9rem]'>Domestic rattan industry is expected to contribute foreign exchange as a period in 1988 when the rattan industry was victorious, because the current situation in 1988 is equal to the current situation that the government conducts a policy of protection by banning the export of raw rattan.</p>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up" data-aos-delay="100">
             <img className='' src={iklan1} alt="" />
             </div>
         </div>
@@ -33,13 +33,13 @@ const Products = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-10 md:px-0 px-5">
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-delay="100">
                 <img src={produk1} className="rounded-lg shadow-lg w-full h-[400px] md:h-[500px]" alt="" />
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-delay="200">
                 <img src={produk2} className="rounded-lg shadow-lg w-full h-[400px] md:h-[500px]" alt="" />
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-delay="300">
                 <img src={produk3} className="rounded-lg shadow-lg w-full h-[400px] md:h-[500px]" alt="" />
             </div>
         </div>
